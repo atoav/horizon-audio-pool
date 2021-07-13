@@ -76,7 +76,7 @@
     "manufacturer": "Würth Elektronik",
     "models": {
         "84ad43d1-328f-42c3-8386-a3b3bec07b1a": {
-            "filename": "3d_models/connector/power/barrel_jack_horizontal_119.step",
+            "filename": "3d_models/connectors/power/barrel_jack_horizontal_119.step",
             "pitch": 0,
             "roll": 0,
             "x": 13300000,
@@ -404,6 +404,18 @@
                     "type": "line"
                 }
             ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
         }
     },
     "tags": [

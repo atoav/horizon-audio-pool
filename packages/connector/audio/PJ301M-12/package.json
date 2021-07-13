@@ -1,72 +1,4 @@
 {
-    "_imp": {
-        "grid_spacing": 1500000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-100": {
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "30": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "50": {
-                    "display_mode": "outline",
-                    "visible": false
-                },
-                "60": {
-                    "display_mode": "outline",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {
         "1585ee57-a14e-45f5-a9d9-bb71dd8245d9": {
             "center": "6b4740a1-0143-4899-b618-ec3b209ddd32",
@@ -83,7 +15,8 @@
             "width": 150000
         }
     },
-    "default_model": "f3d79722-a72c-4ee1-a006-8bb8bbd51db1",
+    "default_model": "1da2ac16-8809-4202-aebc-b4cc0b8b4add",
+    "dimensions": {},
     "junctions": {
         "03167a4c-1fed-422e-b9e7-2102f66eff1d": {
             "position": [
@@ -301,8 +234,8 @@
     },
     "manufacturer": "Wenzhou QingPu Electronics Co.",
     "models": {
-        "f3d79722-a72c-4ee1-a006-8bb8bbd51db1": {
-            "filename": "3d_models/connector/audio/PJ301M-12.step",
+        "1da2ac16-8809-4202-aebc-b4cc0b8b4add": {
+            "filename": "3d_models/connectors/audio/PJ301M-12.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
@@ -378,7 +311,7 @@
                 "mirror": false,
                 "shift": [
                     0,
-                    -5980000
+                    -6480000
                 ]
             }
         }
@@ -645,6 +578,18 @@
                     "type": "line"
                 }
             ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
         }
     },
     "tags": [
