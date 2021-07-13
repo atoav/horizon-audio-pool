@@ -1,0 +1,322 @@
+{
+    "alternate_for": "8a03c704-d9f3-4f53-98e9-12ba5e702fac",
+    "arcs": {},
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "junctions": {
+        "260b8528-5b08-4fd8-b077-27503e4f1fa2": {
+            "position": [
+                -2667000,
+                4445000
+            ]
+        },
+        "638a46d8-be5b-4f24-9781-2123bf82782e": {
+            "position": [
+                -2667000,
+                -2794000
+            ]
+        },
+        "7fe3008d-88d5-4997-8dde-440e56ecce37": {
+            "position": [
+                -1905000,
+                3429000
+            ]
+        },
+        "86993683-52d4-4c5e-af8e-4b1eb6b7564c": {
+            "position": [
+                2667000,
+                -2794000
+            ]
+        },
+        "9095b1de-0dc7-445d-8b8c-685d67d8d1d9": {
+            "position": [
+                -635000,
+                3429000
+            ]
+        },
+        "92c17ad2-6423-47b2-9b2e-5ada476325bf": {
+            "position": [
+                -1270000,
+                4064000
+            ]
+        },
+        "b7bf8547-b011-425b-a954-c267e3966b06": {
+            "position": [
+                2667000,
+                4445000
+            ]
+        },
+        "c6a82574-23a4-4771-90df-8f925c7ff2b5": {
+            "position": [
+                1905000,
+                3429000
+            ]
+        },
+        "e4dbb045-7a47-4976-9f59-e3a851cf000f": {
+            "position": [
+                635000,
+                3429000
+            ]
+        },
+        "f19f4017-a2d4-4e9a-9520-73e75488a884": {
+            "position": [
+                -1270000,
+                2794000
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {
+        "1a8c5de0-e298-4713-a492-a154f612ba23": {
+            "from": "86993683-52d4-4c5e-af8e-4b1eb6b7564c",
+            "layer": 20,
+            "to": "638a46d8-be5b-4f24-9781-2123bf82782e",
+            "width": 150000
+        },
+        "23a0714d-88e3-4271-8219-f4736ed6b2b4": {
+            "from": "638a46d8-be5b-4f24-9781-2123bf82782e",
+            "layer": 20,
+            "to": "260b8528-5b08-4fd8-b077-27503e4f1fa2",
+            "width": 150000
+        },
+        "3e7c3d9e-33dd-4730-b114-6d85c9cf091a": {
+            "from": "f19f4017-a2d4-4e9a-9520-73e75488a884",
+            "layer": 20,
+            "to": "92c17ad2-6423-47b2-9b2e-5ada476325bf",
+            "width": 150000
+        },
+        "6993eb82-8f00-4c12-b0d6-84e70c8226f0": {
+            "from": "7fe3008d-88d5-4997-8dde-440e56ecce37",
+            "layer": 20,
+            "to": "9095b1de-0dc7-445d-8b8c-685d67d8d1d9",
+            "width": 150000
+        },
+        "856377b5-b1b8-4d07-8dde-4df7da08ec90": {
+            "from": "e4dbb045-7a47-4976-9f59-e3a851cf000f",
+            "layer": 20,
+            "to": "c6a82574-23a4-4771-90df-8f925c7ff2b5",
+            "width": 150000
+        },
+        "9026214c-504a-41e8-a520-466f410dafa1": {
+            "from": "b7bf8547-b011-425b-a954-c267e3966b06",
+            "layer": 20,
+            "to": "86993683-52d4-4c5e-af8e-4b1eb6b7564c",
+            "width": 150000
+        },
+        "e56d4bdd-3cf5-427a-b551-e3c96c9318b5": {
+            "from": "260b8528-5b08-4fd8-b077-27503e4f1fa2",
+            "layer": 20,
+            "to": "b7bf8547-b011-425b-a954-c267e3966b06",
+            "width": 150000
+        }
+    },
+    "manufacturer": "",
+    "models": {},
+    "name": "Generic 9V Battery Clip (SMD-Mount)",
+    "pads": {
+        "5c6c3f02-4221-42bf-bb7c-db8709a2e103": {
+            "name": "P",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
+            "parameter_set": {
+                "corner_radius": 500000,
+                "pad_height": 5000000,
+                "pad_width": 2200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1270000,
+                    0
+                ]
+            }
+        },
+        "7858db8e-af8e-41d2-b5d3-60d25da6b3ab": {
+            "name": "N",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
+            "parameter_set": {
+                "corner_radius": 500000,
+                "pad_height": 5000000,
+                "pad_width": 2200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1270000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "4.740mm 5.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "9136e70c-aa12-404d-93a4-a3cb4fd64655": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2620000,
+                        -2750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2620000,
+                        2750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2620000,
+                        2750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2620000,
+                        -2750000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "9ded3d01-64d6-4a8d-ad16-04d61070f75f": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2370000,
+                        -2500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2370000,
+                        2500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2370000,
+                        2500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2370000,
+                        -2500000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [
+        "9V",
+        "battery",
+        "connector",
+        "generic"
+    ],
+    "texts": {
+        "3ab546a1-755f-4449-98b7-098fba352811": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2197500,
+                    0
+                ]
+            },
+            "size": 800000,
+            "text": "$RD",
+            "width": 0
+        },
+        "6b2177a2-8f09-4262-8f6d-3f8945838ecf": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2695500,
+                    5391000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        }
+    },
+    "type": "package",
+    "uuid": "8dea08bf-5263-4a18-b683-b30806a25df4"
+}
